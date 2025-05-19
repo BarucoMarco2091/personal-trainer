@@ -1,0 +1,71 @@
+@import '../styles/footer.scss';
+@import '../styles/header.scss';
+@import '../styles/main.scss';
+@import '../styles/responsivity.scss';
+@import '../styles/variables.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+}
+
+body {
+    height: 100dvh;
+    width: 100%;
+    position: relative;
+    overflow-x: hidden;
+    outline: none;
+    background-color: $black;
+}
+
+h1, h2 {
+    font-family: 'Roboto', Arial, serif;
+    font-size: 3rem;
+    color: $gold;
+}
+
+p, span {
+    font-family: 'Poppins', Arial, serif;
+    font-size: 1rem;
+    color: $white;
+}
+
+button {
+    cursor: pointer;
+    font-family: 'Poppins', Arial, serif;
+    font-size: 1rem;
+    color: $white;
+}
+
+a {
+    cursor: pointer;
+    font-family: 'Poppins', Arial, serif;
+    font-size: 1rem;
+    color: $white;
+}
+
+i {
+    cursor: pointer;
+    font-size: 1.3rem;
+    color: $white;
+}
+
+img {
+    width: 100%;
+}
+
+svg {
+    width: 100%;
+}
+
+@media (width <= 1024px) {
+    h1, h2 {
+        font-size: 1.5rem;
+    }
+}

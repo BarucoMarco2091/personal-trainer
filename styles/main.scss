@@ -1,0 +1,88 @@
+@import '../styles/responsivity.scss';
+@import '../styles/variables.scss';
+
+main {
+    max-width: 1240px;
+    margin: auto;
+
+    .hero {
+        display: flex;
+        flex-direction: column;
+
+        .content {
+            text-align: center;
+
+            h1 {
+                font-weight: 600;
+            }
+
+            h1,
+            p {
+                margin: 1dvh 1dvh;
+            }
+
+            p {
+                line-height: 2rem;
+            }
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr;
+
+            .card {
+                background-color: $white;
+                border-radius: 2dvh;
+                overflow: hidden;
+
+                .card-img {
+
+                    img {
+                        width: 100%;
+                        height: 40dvh;
+                        object-fit: cover;
+                        margin-bottom: 3dvh;
+                        filter: brightness(50%);
+                        transition: transform .9s;
+                    }
+
+                    img:hover {
+                        transform: scale(1.1);
+                    }
+                }
+
+                .card-body {
+                    text-align: center;
+
+                    .card-title {
+                        color: $gold;
+                        font-size: 1.5rem;
+                        font-weight: 600;
+                        margin-bottom: 2dvh;
+                    }
+
+                    .card-description {
+                        color: $black;
+                        line-height: 2rem;
+                        margin-bottom: 2dvh;
+                    }
+
+                    .card-btn {
+                        color: $white;
+                        background-color: $orange;
+                        border: none;
+                        border-radius: 2dvh;
+                        height: 5dvh;
+                        width: 30dvh;
+                        margin-bottom: 2dvh;
+                        transition: background-color .9s;
+                    }
+
+                    .card-btn:hover {
+                        background-color: $red;
+                    }
+                }
+            }
+        }
+    }
+}
