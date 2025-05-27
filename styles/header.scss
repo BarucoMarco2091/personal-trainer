@@ -20,9 +20,9 @@ header {
         }
 
         .nav-list {
+            list-style-type: none;
 
             .nav-link {
-                list-style-type: none;
                 transition: color .9s;
             }
 

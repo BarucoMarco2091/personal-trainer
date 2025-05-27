@@ -1,2 +1,31 @@
 @import '../styles/responsivity.scss';
 @import '../styles/variables.scss';
+
+.footer-container {
+    padding: 1dvh 1dvh;
+
+    .footer-logo {
+        margin: 1dvh 1dvh;
+
+        i {
+            font-size: 1.7rem;
+        }
+
+        span {
+            font-size: 1.7rem;
+        }
+    }
+
+    .footer-icons {
+        margin: 1dvh 1dvh;
+
+        i {
+            margin-left: 2dvh;
+            transition: color .9s;
+        }
+
+        i:hover {
+            color: $yellow;
+        }
+    }
+}
