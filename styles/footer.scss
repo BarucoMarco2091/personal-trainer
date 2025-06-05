@@ -2,6 +2,11 @@
 @import '../styles/variables.scss';
 
 .footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     padding: 1dvh 1dvh;
 
     .footer-logo {
