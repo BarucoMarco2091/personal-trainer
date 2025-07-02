@@ -14,6 +14,11 @@
     gap: 3dvh;
   }
 }
+@media screen and (max-width: 600px) {
+  #mobile_btn {
+    display: block !important;
+  }
+}
 @media (width >= 1024px) {
   .content h1,
   .content p {
@@ -128,5 +133,10 @@
     height: 40dvh;
     -o-object-fit: cover;
        object-fit: cover;
+  }
+}
+@media screen and (max-width: 1170px) {
+  .nav-list {
+    display: none !important;
   }
 }/*# sourceMappingURL=responsivity.css.map */

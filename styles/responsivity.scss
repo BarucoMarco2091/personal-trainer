@@ -17,6 +17,12 @@
     }
 }
 
+@media screen and (max-width: 600px) {
+    #mobile_btn {
+        display: block !important;
+    }
+}
+
 @media (width >=1024px) {
     .content {
 
@@ -158,5 +164,11 @@
                 }
             }
         }
+    }
+}
+
+@media screen and (max-width: 1170px) {
+    .nav-list {
+        display: none !important;
     }
 }

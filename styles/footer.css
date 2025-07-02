@@ -7,7 +7,7 @@
     flex-direction: row !important;
     max-width: 1240px;
     margin: auto;
-    justify-content: space-between;
+    justify-content: space-between !important;
     padding: 5dvh 0 !important;
   }
   nav .nav-list {
